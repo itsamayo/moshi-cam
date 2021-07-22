@@ -9,11 +9,6 @@ The Pi streams the output of the camera module over the web via Flask. Devices c
 <raspberry_pi_ip:5000> 
 ```
 
-## Screenshots
-| ![Setup](readme/pi-stream-client.jpg) | ![Live Pi Camera Stream](readme/pi-stream-screen-capture.jpg) |
-|---|---|
-| Pi Setup | Pi - Live Stream |
-
 ## Preconditions
 
 * Raspberry Pi 4, 2GB is recommended for optimal performance. However you can use a Pi 3 or older, you may see a increase in latency.
