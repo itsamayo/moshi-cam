@@ -136,11 +136,18 @@ body {
     background-color: black;
 }
 
+.stats-title-warm {
+  color:#af4c4c
+}
+
+.stats-title-cool {
+  color:#4c9baf
+}
 
 </style>
 </head>
 
-<title>Moshi 🐉</title>
+<title>moshi 🐉</title>
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
@@ -153,17 +160,17 @@ body {
 </div>
 
   <div class="top-right-logo">
-  	<a></a>🐉 Moshi</a>
+  	<a></a>🐉 moshi</a>
   </div>
 
   <div class="bottom-left-stats">
-    <b>Warm Side:</b><br>
+    <b><span class="stats-title-warm">Basking Side:</span></b><br>
   	Temp: {{ warm_temp }}C<br>
     Humidity: {{ warm_humidity }}%
   </div>
   
   <div class="bottom-right-stats">
-    <b>Cool Side:</b><br>
+    <b><span class="stats-title-cool">Cool Side:</span></b><br>
   	Temp: {{ cool_temp }}C<br>
     Humidity: {{ cool_humidity }}%
   </div>

@@ -6,7 +6,7 @@ Live stream of Moshis home with temp and humidity stats for both cool and warm s
 The Pi streams the output of the camera module over the web via Flask. Devices connected to the same network would be able to access the camera stream via
 
 ```
-<raspberry_pi_ip:5000> 
+<raspberry_pi_ip:5001> 
 ```
 
 ## Preconditions
