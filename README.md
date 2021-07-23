@@ -34,5 +34,6 @@ sudo pip3 install imutils
 sudo pip3 install opencv-python
 sudo pip3 install firebase-admin
 
-
 ```
+## Config
+* Create a Firebase RealtimeDB, get your service secret json file and place the contents into a firebaseSecret.json file at the root of the project.
