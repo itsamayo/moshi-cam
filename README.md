@@ -3,7 +3,7 @@
 Live stream of Moshis home with temp and humidity stats for both cool and warm sides of the enclosure
 
 ## How it works
-The Pi streams the output of the camera module over the web via Flask. Devices connected to the same network would be able to access the camera stream via
+The Pi streams the output of the camera module over the web via Flask. Temperature and humidity data for both sides of the enclosure are received from a Firebase RealtimeDB that gets updates from 2 DHT22 modules inside the enclosure.
 
 ```
 <raspberry_pi_ip:5001> 
