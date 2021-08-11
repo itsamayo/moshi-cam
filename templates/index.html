@@ -109,20 +109,20 @@ button {
   opacity: 0.5;
 }
 
-.top-left-stats {
+.bottom-left-stats {
   font-family: 'Aldrich', sans-serif;
   position: absolute;
-  top: 5%;
+  bottom: 5%;
   left: 2%;
   font-size: 18px;
   color: white;
   opacity: 0.5;
 }
 
-.top-right-stats {
+.bottom-right-stats {
   font-family: 'Aldrich', sans-serif;
   position: absolute;
-  top: 5%;
+  bottom: 5%;
   right: 2%;
   font-size: 18px;
   color: white;
@@ -165,13 +165,13 @@ body {
      
 </div>
 
-  <div class="top-left-stats">
+  <div class="bottom-left-stats">
     <b><span class="stats-title-warm">Basking</span></b><br>
   	Temp: {{ warm_temp }}C<br>
 	  Humidity: {{ warm_humidity }}%
   </div>
   
-  <div class="top-right-stats">
+  <div class="bottom-right-stats">
     <b><span class="stats-title-cool">Cool</span></b><br>
   	Temp: {{ cool_temp }}C<br>
   	Humidity: {{ cool_humidity }}%
